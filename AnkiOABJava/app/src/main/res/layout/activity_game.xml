@@ -10,20 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="lucas.com.br.ankioab.Game">
 
-    <TextView
-        android:id="@+id/question"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Question"
-        style="@style/FontInicial"
-        android:textColor="@android:color/background_light"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="16dp"
-        android:layout_marginTop="25dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:elevation="0dp" />
+
 
     <RelativeLayout
         android:id="@+id/layout_next_card"
@@ -41,6 +28,21 @@
             tools:layout_editor_absoluteY="446dp"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question"
+            style="@style/FontInicial"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="154dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:elevation="0dp" />
 
         <RelativeLayout
             android:id="@+id/layout_show_answer"
@@ -84,7 +86,8 @@
                 android:layout_alignParentBottom="true"
                 android:layout_alignRight="@+id/progressBar"
                 android:layout_alignEnd="@+id/progressBar"
-                android:backgroundTint="@android:color/holo_green_dark" />
+                android:backgroundTint="@android:color/holo_blue_light"
+                android:textColor="@android:color/background_light"/>
 
         </RelativeLayout>
 

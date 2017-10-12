@@ -44,7 +44,6 @@ public class TelaInicial extends AppCompatActivity {
     }
 
     public void consultar (View v){
-        // valor da EditText;
         String emailUsuario =  email.getText().toString();
         String senhaUsuario = senha.getText().toString();
 
@@ -60,9 +59,7 @@ public class TelaInicial extends AppCompatActivity {
             }
         }
         else {
-
-
-            Toast.makeText(this, "Usuário ou senha inválido123!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Usuário inválido!", Toast.LENGTH_SHORT).show();
         }
     }
 

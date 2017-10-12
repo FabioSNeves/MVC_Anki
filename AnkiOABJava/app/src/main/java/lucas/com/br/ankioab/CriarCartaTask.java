@@ -15,7 +15,7 @@ public class CriarCartaTask extends AsyncTask<Carta, Void, Void> {
             // 1. usando a Feign para fazer uma chamada a uma api rest
             CartaRequest request = Feign.builder().
                     encoder(new GsonEncoder()).
-                    target(CartaRequest.class, "https://jsonplaceholder.typicode.com");
+                    target(CartaRequest.class, "http://192.168.1.102/Anki2");
 
             // 2. Fazendo a chamada e enviando o objeto convertido em JSON
             request.createCarta(params[0]);

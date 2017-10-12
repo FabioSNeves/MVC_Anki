@@ -17,9 +17,8 @@
 
         <Spinner
             android:layout_width="match_parent"
-            android:layout_height="47dp"
-            android:id="@+id/spn_deck_id"
-            android:onClick=""/>
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner" />
 
         <EditText
             android:hint="Frente da Carta"
@@ -54,7 +53,10 @@
             android:elevation="0dp"
             android:textSize="24sp"
             android:textAllCaps="false"
-            android:backgroundTint="@android:color/holo_green_dark" />
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:textColor="@android:color/background_light"
+            android:onClick="criarCarta"/>
 
     </LinearLayout>
+
 </RelativeLayout>

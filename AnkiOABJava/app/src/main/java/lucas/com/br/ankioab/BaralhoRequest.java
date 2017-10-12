@@ -1,5 +1,7 @@
 package lucas.com.br.ankioab;
 
+import java.util.ArrayList;
+
 import feign.Param;
 import feign.RequestLine;
 
@@ -13,7 +15,7 @@ public interface BaralhoRequest {
     Baralho getBaralho(@Param("id") Integer id);
 
     @RequestLine("GET /api/Baralho/GetAll")
-    Baralho getAllBaralho();
+    ArrayList<Baralho> getAllBaralho();
 
     @RequestLine("DELETE /posts/{id}/")
     void deleteBaralho(@Param("id") Integer id);

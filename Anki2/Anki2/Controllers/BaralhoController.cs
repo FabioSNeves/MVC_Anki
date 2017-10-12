@@ -24,7 +24,7 @@ namespace Anki2.Controllers
 
 		// GET: api/Baralho/GetAll
 		[HttpGet]
-		public List<Baralho> GetAllContacts()
+		public List<Baralho> GetAll()
         {
             try
             {
