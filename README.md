@@ -1,3 +1,3 @@
 #MCV
 
-Porjeto duplicado para alicação da arquitetura MVC.
+Porjeto duplicado para aplicação da arquitetura MVC.
